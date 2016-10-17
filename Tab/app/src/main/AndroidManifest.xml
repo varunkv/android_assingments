@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.varun.tab" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Tablayoutactivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".photosactivity"
+            android:label="@string/title_activity_photosactivity" >
+        </activity>
+        <activity
+            android:name=".songsactivity"
+            android:label="@string/title_activity_songsactivity" >
+        </activity>
+        <activity
+            android:name=".videoactivity"
+            android:label="@string/title_activity_videoactivity" >
+        </activity>
+    </application>
+
+</manifest>

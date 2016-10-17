@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tab</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_photosactivity">photosactivity</string>
+    <string name="title_activity_songsactivity">songsactivity</string>
+    <string name="title_activity_videoactivity">videoactivity</string>
+</resources>
